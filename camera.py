@@ -12,4 +12,4 @@ camera.start_preview()
 time.sleep(2) # Warming-up camera
 # Capturing image and storing in the right place and with the right name (<timestamp>.jpg)
 camera.capture(os.getenv('FIYELI_IMAGES') + "/" + str(int(time.time())) + ".jpg")
-camera.stop_preview() 
+camera.stop_preview()
